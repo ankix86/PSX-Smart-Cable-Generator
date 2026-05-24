@@ -2,6 +2,12 @@
 
 A small **Unity Editor** helper for making low-poly cable meshes — the kind that fit a PS1/PSX look. You place anchors in the scene, tweak sliders, preview the shape, then save a mesh asset. At **play time** it’s just a normal `MeshFilter` + `MeshRenderer`; nothing keeps regenerating in the background.
 
+## Showcase
+
+[![PSX Smart Cable Generator — showcase video](https://img.youtube.com/vi/Yej_UE-qvSA/0.jpg)](https://youtu.be/Yej_UE-qvSA)
+
+Watch on YouTube: [youtu.be/Yej_UE-qvSA](https://youtu.be/Yej_UE-qvSA)
+
 ---
 
 ## What it does
@@ -114,9 +120,3 @@ After you save a mesh and assign it to the `MeshFilter`, the cable behaves like 
 - Parent empty objects along walls, poles, or plugs — drag them into **Path Anchors** instead of typing world positions.
 - Start from a preset, then switch to **Custom** mentally once you’re one or two tweaks away.
 - Low **Radial Segments** + **Psx Vertex Wobble** + small **Vertex Snap Grid** sell the retro look more than high poly smooth tubes.
-
----
-
-## License
-
-Add your license here if you publish the repo (MIT, etc.).
